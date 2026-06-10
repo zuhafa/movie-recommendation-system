@@ -8,7 +8,8 @@ A content-based Movie Recommendation System built using FastAPI, React, TF-IDF, 
 
 
 ### Recommendation Results
-<img width="469" height="434" alt="Screenshot 2026-06-09 124553" src="https://github.com/user-attachments/assets/de9363c0-1803-4fac-a1a6-36c3d224da6a" />
+<img width="334" height="599" alt="Screenshot 2026-06-10 160734" src="https://github.com/user-attachments/assets/38ae3975-ad20-45e4-a660-6ecc11ba2c81" />
+
 
 
 ### Movie Details Modal
