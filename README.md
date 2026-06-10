@@ -28,7 +28,7 @@ A content-based Movie Recommendation System built using FastAPI, React, TF-IDF, 
 - **Real-time movie metadata retrieval**
 
 ### Frontend (React + Vite + Tailwind)
--** Netflix-inspired dark UI**
+- **Netflix-inspired dark UI**
 - Animated hero section
 - Smart autocomplete search
 - **Responsive movie cards**
