@@ -1,25 +1,29 @@
 # 🎬 Movie Recommendation System
 
-A complete, production-ready Movie Recommendation System with a modern Netflix/IMDb-inspired UI, powered by Machine Learning (TF-IDF + Cosine Similarity) and OMDb API integration.
+A content-based Movie Recommendation System built using FastAPI, React, TF-IDF, and Cosine Similarity. The application analyzes movie metadata from the TMDB 5000 dataset and provides personalized recommendations with posters, ratings, cast information, director details, and similarity-based matching through a modern Netflix-inspired interface.
 
 ## ✨ Features
 
 ### Backend (FastAPI + ML)
 - **Content-based filtering** using TF-IDF vectorization + Cosine Similarity
-- **TMDB 5000 Movie Dataset** with real movie metadata
-- **OMDb API integration** with included API key for live movie data and posters
+- **TMDB 5000 Movie Dataset** with 4,800+ movie records
+- **OMDb API integration** for posters, ratings, cast information, and movie details.
 - **REST API** with three endpoints: `/movies`, `/recommend/{movie}`, `/movie/{movie}`
 - **Fuzzy matching** for movie title search
 - **Top 5 recommendations** with similarity scores
+- **Real-time movie metadata retrieval**
 
 ### Frontend (React + Vite + Tailwind)
-- **Netflix-inspired dark UI** with cinematic design
-- **Animated particle hero** with smooth scroll
-- **Smart autocomplete search** with 5000+ movie suggestions
-- **Responsive movie cards** with posters, ratings, cast, director, genres
-- **Match percentage** showing similarity score
-- **Loading states** and **error handling** with retry
-- **Fully responsive** — mobile, tablet, desktop
+- Netflix-inspired dark UI
+- Animated hero section
+- Smart autocomplete search
+- Responsive movie cards
+- Movie detail modal with poster, cast, director, rating, and overview
+- Similarity match percentage display
+- Dataset statistics dashboard
+- Loading states and error handling
+- Fully responsive design
+
 
 ## 🏗️ Architecture
 
@@ -62,7 +66,7 @@ python main.py
 
 Backend runs at `http://localhost:8000`
 
-**Note:** An OMDb API key is included by default. The system is ready to use out of the box!
+**Note:** Configure your OMDb API key in the environment settings.
 
 ### 2. Setup Frontend
 
