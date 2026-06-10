@@ -27,15 +27,15 @@ A content-based Movie Recommendation System built using FastAPI, React, TF-IDF, 
 - **Real-time movie metadata retrieval**
 
 ### Frontend (React + Vite + Tailwind)
-- Netflix-inspired dark UI
+-** Netflix-inspired dark UI**
 - Animated hero section
 - Smart autocomplete search
-- Responsive movie cards
-- Movie detail modal with poster, cast, director, rating, and overview
-- Similarity match percentage display
-- Dataset statistics dashboard
+- **Responsive movie cards**
+- **Movie detail modal** with poster, cast, director, rating, and overview
+- **Similarity match percentage display**
+- **Dataset statistics dashboard**
 - Loading states and error handling
-- Fully responsive design
+- **Fully responsive design**
 
 
 ## 🏗️ Architecture
@@ -116,9 +116,9 @@ Uses the **TMDB 5000 Movie Dataset** containing:
 3. **Cosine Similarity**: Computes similarity between all movie vectors
 4. **Recommendation**: Returns top 5 most similar movies (excluding the input movie itself)
 
-## 🎬 OMDb API Integration (Key Included)
+## 🎬 OMDb API Integration
 
-The system uses the **OMDb API** (with a key included by default) to dynamically fetch:
+The system uses the **OMDb API** to dynamically fetch:
 - Movie poster images
 - Real-time IMDb ratings
 - Up-to-date cast and director information
