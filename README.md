@@ -2,6 +2,19 @@
 
 A content-based Movie Recommendation System built using FastAPI, React, TF-IDF, and Cosine Similarity. The application analyzes movie metadata from the TMDB 5000 dataset and provides personalized recommendations with posters, ratings, cast information, director details, and similarity-based matching through a modern Netflix-inspired interface.
 
+##📸 Application Preview
+###Home Page
+<img width="530" height="494" alt="Screenshot 2026-06-10 155207" src="https://github.com/user-attachments/assets/2e4f22df-1c2a-40fc-b061-273fce6cb308" />
+
+
+###Recommendation Results
+<img width="469" height="434" alt="Screenshot 2026-06-09 124553" src="https://github.com/user-attachments/assets/de9363c0-1803-4fac-a1a6-36c3d224da6a" />
+
+
+###Movie Details Modal
+<img width="344" height="482" alt="Screenshot 2026-06-10 155842" src="https://github.com/user-attachments/assets/b8fb03ae-57e8-433c-aab3-60d782167bfc" />
+
+
 ## ✨ Features
 
 ### Backend (FastAPI + ML)
